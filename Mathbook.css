@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: auto;
+    background-color: bisque;
+}
+    h1{
+        margin: auto;
+        text-align: center;
+        border-bottom: 1px solid black;
+        box-shadow: 2px 2px 2px 2px grey;
+        font-size: 2.1em;
+        width: 100%;
+        background: rgb(242, 209, 242);
+    }
+    #h32{
+        text-align: center;
+        font-size: 1.9em;
+        background-color: white;
+        border: 1px solid black;
+    }
+    .Images{
+        width: 50%;
+        position: relative;
+        float: left;
+    }
+    a{
+        text-decoration: none;
+        text-decoration: underline;
+        color: black;
+        font-weight: bolder;
+    }
+    p{
+        font-weight: bolder;
+        color: green;
+    }
+    #section1{
+        position: relative;
+        float: left;
+        box-shadow: 2px 2px 2px 2px grey;
+        padding: 5px 5px;
+        margin: 2px 3px;
+        border: 5px solid white;
+        border-radius: 10px;
+        background-color: rgb(241, 196, 241);
+    }
+    h4{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+
+    }
+    #section2{
+        position: relative;
+        float: left;
+        box-shadow: 2px 2px 2px 2px grey;
+        padding: 5px 5px;
+        margin: 2px 3px;
+        border: 5px solid white;
+        border-radius: 10px;
+        background-color: rgb(241, 196, 241);
+    }
+    #section3{
+        position: relative;
+        float: left;
+        box-shadow: 2px 2px 2px 2px grey;
+        padding: 5px 5px;
+        margin: 2px 3px;
+        border: 5px solid white;
+        border-radius: 10px;
+        background-color: rgb(241, 196, 241);
+    }
+@media only screen and (min-width: 750px){
+    #Main{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+    .Images{
+        width: 25%;
+        position: relative;
+        float: left;
+    }
+    a{
+        color: black;
+        font-weight: bolder;
+    }
+    p{
+        font-weight: bolder;
+        color: green;
+    }
+  
+}
